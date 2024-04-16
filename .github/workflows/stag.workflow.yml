@@ -13,4 +13,6 @@ jobs:
       with:
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }} 
         WPE_ENV: Staging
-        SRC_PATH: wp-content/themes/
+        # Deploy Options
+        SRC_PATH: "themes/"
+        REMOTE_PATH: "wp-content/themes/"
