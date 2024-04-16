@@ -41,7 +41,7 @@ div#slide-17-layer-1 {
 
 		<?php if ( presscore_is_content_visible() ): ?>
 
-			<div id="content" class="content" role="main">
+			<div id="content" class="content test" role="main">
 
 
             <?php if(is_page(1930)){
